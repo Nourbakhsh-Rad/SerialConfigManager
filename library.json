@@ -1,0 +1,36 @@
+{
+  "name": "SerialConfigManager",
+  "version": "2.5.0",
+  "description": "Unified serial (UART) port configuration manager for ESP32 & ESP8266, with RS-485 half/full-duplex direction control and persistent storage (LittleFS/SPIFFS/FFat or EEPROM) with JSON export/import.",
+  "keywords": "serial, uart, rs485, esp32, esp8266, configuration, littlefs, spiffs, eeprom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nourbakhsh-Rad/SerialConfigManager.git"
+  },
+  "authors": [
+    {
+      "name": "Sh. Nourbakhsh Rad",
+      "email": "Sh.Nourbakhsh@gmail.com",
+      "url": "https://github.com/Nourbakhsh-Rad"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
+  "headers": "SerialConfigManager.h",
+  "export": {
+    "include": [
+      "src",
+      "examples",
+      "library.properties",
+      "library.json",
+      "keywords.txt",
+      "LICENSE",
+      "README.md",
+      "CHANGELOG.md"
+    ]
+  }
+}

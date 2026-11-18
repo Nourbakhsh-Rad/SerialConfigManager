@@ -1,0 +1,12 @@
+# Build / IDE artifacts
+.pio/
+.vscode/
+.idea/
+build/
+*.o
+*.elf
+*.bin
+extras/host-tests/test32
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,89 @@
+#######################################
+# Syntax Coloring Map for SerialConfigManager
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SerialConfigManager	KEYWORD1
+SerialConfigs	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+isInitialized	KEYWORD2
+
+setSerialConfig	KEYWORD2
+getSerialConfig	KEYWORD2
+applySerialConfig	KEYWORD2
+setSerialBaudRate	KEYWORD2
+setSerialDataBits	KEYWORD2
+setSerialParity	KEYWORD2
+setSerialStopBits	KEYWORD2
+setSerialPins	KEYWORD2
+enableSerial	KEYWORD2
+setSerialRxTx	KEYWORD2
+
+getBaudRate	KEYWORD2
+getDataBits	KEYWORD2
+getParity	KEYWORD2
+getStopBits	KEYWORD2
+isEnabled	KEYWORD2
+isRxEnabled	KEYWORD2
+isTxEnabled	KEYWORD2
+getRxPin	KEYWORD2
+getTxPin	KEYWORD2
+getDePin	KEYWORD2
+getRePin	KEYWORD2
+getRS485Mode	KEYWORD2
+isRS485Inverted	KEYWORD2
+isRS485Enabled	KEYWORD2
+isTransmitMode	KEYWORD2
+isSerialActive	KEYWORD2
+
+setRS485Pins	KEYWORD2
+setRS485Mode	KEYWORD2
+setRS485Invert	KEYWORD2
+enableRS485	KEYWORD2
+writeSerial	KEYWORD2
+writeRS485	KEYWORD2
+setTransmitMode	KEYWORD2
+setReceiveMode	KEYWORD2
+
+saveConfig	KEYWORD2
+loadConfig	KEYWORD2
+resetToDefaults	KEYWORD2
+configFileExists	KEYWORD2
+deleteConfigFile	KEYWORD2
+configToJson	KEYWORD2
+parseJsonConfig	KEYWORD2
+
+isValidBaudRate	KEYWORD2
+isValidDataBits	KEYWORD2
+isValidParity	KEYWORD2
+isValidStopBits	KEYWORD2
+isValidPort	KEYWORD2
+isValidRS485Mode	KEYWORD2
+
+printConfig	KEYWORD2
+getLastError	KEYWORD2
+getVersion	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SER0	LITERAL1
+SER1	LITERAL1
+SCM_RS485_NONE	LITERAL1
+SCM_RS485_HALF_DUPLEX	LITERAL1
+SCM_RS485_FULL_DUPLEX	LITERAL1
+SCM_STORAGE_NONE	LITERAL1
+SCM_STORAGE_EEPROM	LITERAL1
+SCM_STORAGE_FS	LITERAL1
+SCM_LIB_VERSION	LITERAL1
+SCM_CONFIG_VERSION	LITERAL1
